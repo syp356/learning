@@ -1,0 +1,16 @@
+{
+  "properties": [
+    {
+      "name": "syp.redisson.host1",
+      "type": "java.lang.String",
+      "description": "redis的服务器地址1",
+      "defaultValue":"localhost"
+    },
+    {
+      "name": "syp.redisson.port",
+      "type": "java.lang.String",
+      "description": "端口",
+      "defaultValue": "6379"
+    }
+  ]
+}

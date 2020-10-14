@@ -1,0 +1,14 @@
+spring:
+  application:
+    name: goods-servive-provider
+server:
+  port: 8083
+
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:9090/eureka
+
+logging:
+  level:
+    org.springframework.cloud.sleuth: debug
